@@ -1,0 +1,137 @@
+/* Home.css */
+
+/* General Section Spacing */
+section {
+    padding: 35px 20px;
+    margin: 20px 0px;
+  }
+  #home h1 {
+    color : yellow;
+    text-align: center;
+  }
+ #body {
+  background-color: black;
+ }
+
+ #menu h2 {
+  color: #fff;
+ }
+ #about h2 {
+  color: #fff;
+ }
+ #contact h2 {
+  color: #fff;
+ }
+  
+  /* Navbar Styles */
+  .navbar-brand img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    color: white;
+    
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: yellow;
+  }
+  
+  .btn-outline-primary {
+    margin-left: auto;
+  }
+  
+  /* Carousel */
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* About Section */
+  #about p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: yellow;
+  }
+  
+  /* Contact Form */
+  form .form-label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  form .btn {
+    width: 100%;
+  }
+  
+  /* Cart Section */
+  #cart h2 {
+        color: #fff;
+  }
+  #cart h4 {
+    color: #fff;
+}
+#cart p {
+  color: red;
+}
+  #cart h4 {
+    margin-top: 20px;
+  }
+  
+  #cart .btn-danger {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color:#555; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center; /* Center-align all text */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    gap: 10px; /* Space between text and icons */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    justify-content: center; /* Center the icons horizontally */
+  }
+  
+  .social-icon {
+    font-size: 30px; /* Increase icon size */
+    color: #fff; /* Icon color */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+    color: #caec08; /* Optional: Change color on hover */
+  }
+  
